@@ -1,0 +1,32 @@
+body { 
+	margin: 0;
+	font-family: helvetica;
+}
+
+.content {
+	   margin: 16px;
+}	   
+
+.navbar {
+	background-color: #ececec;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.header li {
+	float: left;
+}
+
+.header li a {
+	display: block;
+	color: #a53939;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+	
