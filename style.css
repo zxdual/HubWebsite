@@ -1,14 +1,22 @@
 body { 
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2b/Bookshelf.jpg");
 	margin: 0;
 	font-family: helvetica;
 }
 
-.content {
-	   margin: 16px;
-}	   
-
+.content { 
+	margin: 16px;
+	
+}
+.intro, .quote {     
+	background-color: rgba(134, 126, 126, 0.73);
+        padding: 10px;
+        width: 50%;	   
+	margin-bottom: 10px;
+	color: lightyellow;
+}	
 .navbar {
-	background-color: #ececec;
+	background-color: black;
 }
 
 .navbar ul {
@@ -29,4 +37,22 @@ body {
 	padding: 14px 16px;
 	text-decoration: none;
 }
-	
+.block  { 
+        background-color: rgba(134, 126, 126, 0.73);
+        padding: 10px;
+        width: 50%;	   
+	margin-bottom: 10px;
+	color: lightyellow;
+	display:block;
+	overflow:auto;
+}	
+.block img { 
+	width:150px;
+	display:block;
+	margin:auto;
+}
+
+.block .text {
+	float:left;	
+	width: 50%;
+}
