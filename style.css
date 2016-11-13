@@ -9,7 +9,7 @@ body {
 	
 }
 .intro, .quote {     
-	background-color: rgba(134, 126, 126, 0.73);
+	background-color: rgba(0, 0, 0, 0.73);
         padding: 10px;
         width: 50%;	   
 	margin-bottom: 10px;
@@ -38,7 +38,7 @@ body {
 	text-decoration: none;
 }
 .block  { 
-        background-color: rgba(134, 126, 126, 0.73);
+        background-color: rgba(0, 0, 0, 0.73);
         padding: 10px;
         width: 50%;	   
 	margin-bottom: 10px;
@@ -52,7 +52,12 @@ body {
 	margin:auto;
 }
 
-.block .text {
+.block .text-block {
 	float:left;	
-	width: 50%;
+	width: 50%;	
 }
+
+.intro {
+	color:#a53939;
+
+}	
